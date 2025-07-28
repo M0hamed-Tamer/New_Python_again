@@ -1,0 +1,41 @@
+
+🔹 أساسيات البرمجة المطلوبة لأي مبرمج 🔹
+
+1️⃣ لغة البرمجة (Programming Language - مثل Python)
+- تعلم كتابة الكود: Variables, Loops, Conditions, Functions, Classes.
+- البرمجة الكائنية (OOP): Class, Object, Inheritance, Encapsulation, Polymorphism.
+
+2️⃣ هياكل البيانات (Data Structures)
+- أدوات تخزين البيانات: List, Tuple, Dictionary, Set.
+- مفاهيم متقدمة: Stack, Queue, Linked List, Tree, Graph.
+
+3️⃣ الخوارزميات (Algorithms)
+- تعلم طرق حل المشكلات بكفاءة.
+- أمثلة: Sorting, Searching, Recursion, Binary Search, Dynamic Programming.
+
+4️⃣ حل المشكلات (Problem Solving)
+- التفكير المنطقي في كتابة الكود.
+- التدريب على مواقع مثل HackerRank, LeetCode, Codeforces.
+
+5️⃣ قواعد البيانات (Databases)
+- لغة SQL: CREATE, INSERT, SELECT, UPDATE, DELETE.
+- التعامل مع قواعد البيانات من Python (مثل SQLite, MySQL).
+
+6️⃣ نظام التشغيل (Operating System Basics)
+- معرفة أساسية بـ:
+  - الملفات (File System)
+  - العمليات (Processes)
+  - الذاكرة (Memory)
+  - التعامل مع الطرفية (Terminal) في Linux (مثل Ubuntu)
+
+7️⃣ أدوات مهمة للمبرمج
+- Git & GitHub لإدارة الكود والمشاريع.
+- التعامل مع الملفات (File I/O).
+- Debugging + Testing.
+
+🎯 نصيحة:
+ابدأ بلغة برمجة واحدة (مثل Python)، ثم تعلم OOP، ثم Data Structures + Algorithms، ثم Git & Databases، ومعاهم حل مشكلات كل يوم.
+
+بالتوفيق يا بطل 💪
+"""
+

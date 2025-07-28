@@ -1,0 +1,21 @@
+
+## 🔹 General Tips for Using Copilot
+- Always start comments with `#` to ask Copilot for examples or explanations.
+- You can type partial code and Copilot will suggest completions.
+- Use natural English in comments for best results.
+
+
+## 🔹 Example Prompts to Learn Modules
+
+### 1. Learning `requests` module python
+# Example usage of the requests module in Python
+requests = مكتبه   ,, Modules 
+
+# Python script that uses the os module to list files in a directory
+# Difference between json.load and json.loads with examples
+
+# Write a Python script that uses [module] to [do something]
+
+# Explain how to use [function or method] in [module]
+
+# Compare [method1] and [method2] in [module]
