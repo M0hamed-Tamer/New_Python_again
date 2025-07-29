@@ -14,4 +14,3 @@ def generate_strong_password(length=x):
 strong_password = generate_strong_password()
 print(strong_password)
 
-Std#070903
