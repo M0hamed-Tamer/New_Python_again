@@ -3,8 +3,8 @@ import string
 
 # Function to generate a strong password
 
-x=int(input("Enter The Length The Password? "))
-def generate_strong_password(length=x):
+
+def generate_strong_password(length=20):
 
     characters = string.ascii_letters + string.digits + string.punctuation
     password = ''.join(random.choice(characters) for i in range(length))
