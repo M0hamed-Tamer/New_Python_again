@@ -1,0 +1,106 @@
+1. Functions (الدوال)
+هي أكواد بتنفيذ إجراء معيّن لما تستدعيها.
+
+مثال:
+python
+￼Copy
+￼Edit
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Mohamed"))  # Output: Hello, Mohamed!
+أمثلة في بايثون:
+print()
+
+len()
+
+في مكتبة random: random.randint(), random.choice()
+
+2. Methods (الطرق)
+دوال مرتبطة بكائن معين (object)، تُستخدم لتنفيذ وظائف على ذلك الكائن.
+
+مثال:
+python
+￼Copy
+￼Edit
+my_list = [1, 2, 3]
+my_list.append(4)  # append() هنا method على الكائن my_list
+print(my_list)  # Output: [1, 2, 3, 4]
+أمثلة:
+list.append()
+
+str.upper()
+
+dict.keys()
+
+3. Attributes (الخصائص / المتغيرات)
+بيانات مخزنة داخل الكائن أو المكتبة، ممكن تكون أرقام، نصوص، أو كائنات أخرى.
+
+مثال:
+python
+￼Copy
+￼Edit
+class Car:
+    def __init__(self, color):
+        self.color = color  # color هنا attribute
+
+car1 = Car("red")
+print(car1.color)  # Output: red
+أمثلة في بايثون:
+في مكتبة math: الثابت math.pi (قيمة 3.1415...)
+
+في كائن نص s = "hello", الخاصية s.upper هي دالة method، لكن الخاصية s.isalpha هي method أيضًا.
+
+4. Classes (الكلاسات / الأصناف)
+قوالب لإنشاء كائنات (objects) تحمل بيانات وسلوك.
+
+مثال:
+python
+￼Copy
+￼Edit
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+p = Person("Ali")
+print(p.name)  # Output: Ali
+أمثلة في بايثون:
+int, str, list كلها كلاسات.
+
+في مكتبة threading: threading.Thread هو كلاس.
+
+5. Modules (الوحدات / المكتبات)
+ملفات بايثون تحتوي على دوال، كلاسات، وخصائص لتنظيم الكود.
+
+مثال:
+python
+￼Copy
+￼Edit
+import math
+print(math.sqrt(16))  # يستخدم دالة sqrt من مكتبة math
+6. Packages (الحزم)
+مجموعات من modules منظمة في مجلدات.
+
+مثال:
+numpy هي package فيها عدة modules مثل numpy.linalg
+
+scipy package
+
+7. Constants (الثوابت)
+قيم ثابتة تُستخدم داخل المكتبات.
+
+مثال:
+math.pi = 3.141592653589793
+
+math.e = 2.718281828459045
+
+ملخص في جدول:
+النوع	الوصف	مثال في بايثون
+Function	دالة مستقلة	print(), random.randint()
+Method	دالة مرتبطة بكائن	list.append(), str.upper()
+Attribute	خاصية أو متغير داخل كائن	math.pi, obj.color
+Class	قالب لإنشاء كائنات	int, threading.Thread
+Module	ملف بايثون يحتوي كود مكتبة	math, random
+Package	مجلد يحوي modules	numpy, scipy
+Constant	قيمة ثابتة	math.pi, math.e
+￼
