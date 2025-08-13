@@ -1,4 +1,5 @@
 import random
+import time
 import os
 def clear():
     """Clear The Terminal"""

@@ -19,4 +19,4 @@ file = open("one_file.txt","r")
 # print(file.name)
 # print(file.mode)
 
-print(file.read())
+# print(file.read())

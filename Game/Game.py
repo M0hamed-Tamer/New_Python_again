@@ -1,6 +1,6 @@
 import os
 import time
-import pygame
+import pygame  # type: ignore
 import random
 
 def clear():
@@ -99,12 +99,11 @@ def main_menu():
         clear()
         time.sleep(2)
         print("""Choose a Game To Start......
-        
-        
+              
 1. Froggy
 2. Twenty One
 3. Snake""")
-        choice = input("---------\n").strip().lower()
+        choice = input("---------> ").strip().lower()
         if choice in ['1', 'froggy']:
             clear()
             Froggy()
